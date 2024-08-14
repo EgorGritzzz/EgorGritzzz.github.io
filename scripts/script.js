@@ -18,5 +18,5 @@ fetch("https://baconipsum.com/api/?type=lucky")
     text.innerText = response;
 })
 .catch(err => {
-    console.log("error" + err);
+    console.log("error" + err.message);
 });
