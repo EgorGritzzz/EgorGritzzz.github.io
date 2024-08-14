@@ -10,7 +10,7 @@ burgerBtn.addEventListener('click', ()=>{
 
 // Обновление заголовка
 
-fetch("https://baconipsum.com/api/?type=lucky", { method: 'GET' })
+fetch("https://baconipsum.com/api/?type=lucky")
 .then(res => res.json())
 .then(response => {
     console.log(response);
